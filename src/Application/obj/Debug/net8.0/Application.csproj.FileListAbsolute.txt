@@ -1,0 +1,15 @@
+D:\Git\dot-net\CleanArchitecture8\MusicDemo\src\Application\bin\Debug\net8.0\MusicManagement.Application.deps.json
+D:\Git\dot-net\CleanArchitecture8\MusicDemo\src\Application\bin\Debug\net8.0\MusicManagement.Application.dll
+D:\Git\dot-net\CleanArchitecture8\MusicDemo\src\Application\bin\Debug\net8.0\MusicManagement.Application.pdb
+D:\Git\dot-net\CleanArchitecture8\MusicDemo\src\Application\bin\Debug\net8.0\MusicManagement.Domain.dll
+D:\Git\dot-net\CleanArchitecture8\MusicDemo\src\Application\bin\Debug\net8.0\MusicManagement.Domain.pdb
+D:\Git\dot-net\CleanArchitecture8\MusicDemo\src\Application\obj\Debug\net8.0\Application.csproj.AssemblyReference.cache
+D:\Git\dot-net\CleanArchitecture8\MusicDemo\src\Application\obj\Debug\net8.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\dot-net\CleanArchitecture8\MusicDemo\src\Application\obj\Debug\net8.0\Application.AssemblyInfoInputs.cache
+D:\Git\dot-net\CleanArchitecture8\MusicDemo\src\Application\obj\Debug\net8.0\Application.AssemblyInfo.cs
+D:\Git\dot-net\CleanArchitecture8\MusicDemo\src\Application\obj\Debug\net8.0\Application.csproj.CoreCompileInputs.cache
+D:\Git\dot-net\CleanArchitecture8\MusicDemo\src\Application\obj\Debug\net8.0\Application.csproj.CopyComplete
+D:\Git\dot-net\CleanArchitecture8\MusicDemo\src\Application\obj\Debug\net8.0\MusicManagement.Application.dll
+D:\Git\dot-net\CleanArchitecture8\MusicDemo\src\Application\obj\Debug\net8.0\refint\MusicManagement.Application.dll
+D:\Git\dot-net\CleanArchitecture8\MusicDemo\src\Application\obj\Debug\net8.0\MusicManagement.Application.pdb
+D:\Git\dot-net\CleanArchitecture8\MusicDemo\src\Application\obj\Debug\net8.0\ref\MusicManagement.Application.dll

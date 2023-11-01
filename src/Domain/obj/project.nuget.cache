@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "+G+gT0EReZoENxYwHZ9gz9dDe+MS10AWVBLu7PCkWsY2kG+ZomCN5EuSR8+9WXOfTynYZndwY5pXdCYjQPVeFw==",
+  "success": true,
+  "projectFilePath": "D:\\Git\\dot-net\\CleanArchitecture8\\MusicDemo\\src\\Domain\\Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nvloi\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
+    "C:\\Users\\nvloi\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\nvloi\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

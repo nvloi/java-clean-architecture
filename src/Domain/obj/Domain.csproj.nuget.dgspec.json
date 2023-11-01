@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Git\\dot-net\\CleanArchitecture8\\MusicDemo\\src\\Domain\\Domain.csproj": {}
+  },
+  "projects": {
+    "D:\\Git\\dot-net\\CleanArchitecture8\\MusicDemo\\src\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Git\\dot-net\\CleanArchitecture8\\MusicDemo\\src\\Domain\\Domain.csproj",
+        "projectName": "MusicManagement.Domain",
+        "projectPath": "D:\\Git\\dot-net\\CleanArchitecture8\\MusicDemo\\src\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\nvloi\\.nuget\\packages\\",
+        "outputPath": "D:\\Git\\dot-net\\CleanArchitecture8\\MusicDemo\\src\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "configFilePaths": [
+          "C:\\Users\\nvloi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.1.1, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "Ardalis.GuardClauses": "[4.1.1, )",
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": "[12.0.1, )",
+            "Azure.Extensions.AspNetCore.Configuration.Secrets": "[1.2.2, )",
+            "Azure.Identity": "[1.10.3, )",
+            "FluentValidation.AspNetCore": "[11.3.0, )",
+            "FluentValidation.DependencyInjectionExtensions": "[11.8.0, )",
+            "MediatR": "[12.1.1, )",
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "[8.0.0-rc.2.23480.2, )",
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "[8.0.0-rc.2.23480.2, )",
+            "Microsoft.AspNetCore.OpenApi": "[8.0.0-rc.1.23421.29, )",
+            "Microsoft.EntityFrameworkCore": "[8.0.0-rc.2.23480.1, )",
+            "Microsoft.EntityFrameworkCore.Design": "[8.0.0-rc.2.23480.1, )",
+            "Microsoft.EntityFrameworkCore.Relational": "[8.0.0-rc.2.23480.1, )",
+            "Microsoft.EntityFrameworkCore.SqlServer": "[8.0.0-rc.2.23480.1, )",
+            "Microsoft.EntityFrameworkCore.Tools": "[8.0.0-rc.2.23480.1, )",
+            "NSwag.AspNetCore": "[14.0.0-preview008, )",
+            "NSwag.MSBuild": "[14.0.0-preview008, )",
+            "Swashbuckle.AspNetCore": "[6.4.0, )",
+            "ZymLabs.NSwag.FluentValidation.AspNetCore": "[0.6.2, )"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-rc.1.23463.5/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
