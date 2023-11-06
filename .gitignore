@@ -1,0 +1,5 @@
+.vs/
+src/Application/obj/
+src/Domain/obj/
+src/Infrastructure/obj/
+src/Web/obj/
