@@ -6,7 +6,7 @@ using MusicManagement.Application.Musics.Commands.Delete;
 using MusicManagement.Application.Musics.Commands.Update;
 using MusicManagement.Application.Musics.Queries.GetMusicsWithPagination;
 
-namespace MusicManagement.Web.Endpoints;
+namespace MusicManagement.Web.Controllers;
 
 [Route("Api/[controller]")]
 [ApiController]
