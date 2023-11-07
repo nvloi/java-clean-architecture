@@ -1,5 +1,5 @@
 using MusicManagement.Infrastructure.Data;
-using MusicManagement.Web.Endpoints;
+using MusicManagement.Web.Extensions.Endpoints;
 
 var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
@@ -8,15 +8,19 @@ builder.Services.AddApplicationServices();
 builder.Services.AddInfrastructureServices(builder.Configuration);
 builder.Services.AddWebServices();
 builder.Services.AddControllers();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerDocument(config =>
+{
+    // Configure the Swagger document settings
+    config.DocumentName = "v1";
+    config.Title = "Music Management";
+    config.Version = "v1";
+});
 
 var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     await app.InitialiseDatabaseAsync(); 
-    app.UseSwagger();
-    app.UseSwaggerUI();
 }
 else
 {
@@ -33,6 +37,8 @@ app.MapFallbackToFile("index.html");
 app.UseExceptionHandler(options => { });
 app.Map("/", () => Results.Redirect("/swagger/index.html"));
 app.MapEndpoints();
+app.UseOpenApi();
+app.UseSwaggerUi3();
 app.Run();
 
 public partial class Program { }

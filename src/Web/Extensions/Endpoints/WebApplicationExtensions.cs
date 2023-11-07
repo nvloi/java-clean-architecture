@@ -1,6 +1,7 @@
 ﻿using System.Reflection;
+using MusicManagement.Web.Extensions.Endpoints;
 
-namespace MusicManagement.Web.Endpoints;
+namespace MusicManagement.Web.Extensions.Endpoints;
 
 public static class WebApplicationExtensions
 {
@@ -9,8 +10,9 @@ public static class WebApplicationExtensions
         var groupName = group.GetType().Name;
 
         return app
-            .MapGroup($"/api/{groupName}")
+            .MapGroup($"/Api/{groupName}")
             .WithGroupName(groupName)
+            .WithTags(groupName)
             .WithOpenApi();
     }
 

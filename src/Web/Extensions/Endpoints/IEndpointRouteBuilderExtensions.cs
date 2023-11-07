@@ -1,6 +1,7 @@
 ﻿using Ardalis.GuardClauses;
+using MusicManagement.Web.Extensions.Endpoints;
 
-namespace MusicManagement.Web.Endpoints;
+namespace MusicManagement.Web.Extensions.Endpoints;
 
 public static class IEndpointRouteBuilderExtensions
 {

@@ -1,4 +1,4 @@
-﻿namespace MusicManagement.Web.Endpoints;
+﻿namespace MusicManagement.Web.Extensions.Endpoints;
 
 public abstract class EndpointGroupBase
 {

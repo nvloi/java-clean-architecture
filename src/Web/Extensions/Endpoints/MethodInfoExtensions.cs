@@ -1,7 +1,7 @@
 ﻿using Ardalis.GuardClauses;
 using System.Reflection;
 
-namespace MusicManagement.Web.Endpoints;
+namespace MusicManagement.Web.Extensions.Endpoints;
 
 public static class MethodInfoExtensions
 {

@@ -1,5 +1,5 @@
 ﻿using MusicManagement.Infrastructure.Identity;
-using MusicManagement.Web.Endpoints;
+using MusicManagement.Web.Extensions.Endpoints;
 
 namespace MusicManagement.Web.Controllers;
 

@@ -39,7 +39,7 @@ public class MusicsController : ControllerBase
         return Results.NoContent();
     }
 
-    [HttpPut("UpdateDetail/{id}")]
+    [HttpPut("updateDetail/{id}")]
     public async Task<IResult> UpdateDetail(int id, UpdateMusicDetailCommand command)
     {
         if (id != command.Id) return Results.BadRequest();

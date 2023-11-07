@@ -2,15 +2,15 @@
 
 namespace MusicManagement.Application.Common.Exceptions;
 
-public class CustomValidationException : Exception
+public class ValidationException : Exception
 {
-    public CustomValidationException()
+    public ValidationException()
         : base("One or more validation failures have occurred.")
     {
         Errors = new Dictionary<string, string[]>();
     }
 
-    public CustomValidationException(IEnumerable<ValidationFailure> failures)
+    public ValidationException(IEnumerable<ValidationFailure> failures)
         : this()
     {
         Errors = failures

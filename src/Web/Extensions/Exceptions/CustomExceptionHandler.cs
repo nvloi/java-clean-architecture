@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Http;
 using Ardalis.GuardClauses;
+using MusicManagement.Application.Common.Exceptions;
 
-namespace MusicManagement.Application.Common.Exceptions;
+namespace MusicManagement.Web.Extensions.Exceptions;
 
 public class CustomExceptionHandler : IExceptionHandler
 {
@@ -14,7 +14,7 @@ public class CustomExceptionHandler : IExceptionHandler
         // Register known exception types and handlers.
         _exceptionHandlers = new()
             {
-                { typeof(CustomValidationException), HandleValidationException },
+                { typeof(ValidationException), HandleValidationException },
                 { typeof(NotFoundException), HandleNotFoundException },
                 { typeof(UnauthorizedAccessException), HandleUnauthorizedAccessException },
                 { typeof(ForbiddenAccessException), HandleForbiddenAccessException },
@@ -36,7 +36,7 @@ public class CustomExceptionHandler : IExceptionHandler
 
     private async Task HandleValidationException(HttpContext httpContext, Exception ex)
     {
-        var exception = (CustomValidationException)ex;
+        var exception = (ValidationException)ex;
 
         httpContext.Response.StatusCode = StatusCodes.Status400BadRequest;
 
