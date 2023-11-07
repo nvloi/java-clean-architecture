@@ -1,4 +1,6 @@
-﻿namespace MusicManagement.Application.Musics.Commands.Create;
+﻿using FluentValidation;
+
+namespace MusicManagement.Application.Musics.Commands.Create;
 
 public class CreateMusicCommandValidator : AbstractValidator<CreateMusicCommand>
 {

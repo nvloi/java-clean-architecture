@@ -1,4 +1,6 @@
-﻿namespace MusicManagement.Application.Musics.Queries.GetMusicsWithPagination;
+﻿using FluentValidation;
+
+namespace MusicManagement.Application.Musics.Queries.GetMusicsWithPagination;
 
 public class GetMusicsWithPaginationQueryValidator : AbstractValidator<GetMusicsWithPaginationQuery>
 {

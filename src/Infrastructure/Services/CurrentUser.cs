@@ -1,8 +1,8 @@
-﻿using System.Security.Claims;
-
+﻿using Microsoft.AspNetCore.Http;
 using MusicManagement.Application.Common.Interfaces;
+using System.Security.Claims;
 
-namespace MusicManagement.Web.Services;
+namespace MusicManagement.Infrastructure.Services;
 
 public class CurrentUser : IUser
 {

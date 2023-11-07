@@ -1,4 +1,6 @@
-﻿namespace MusicManagement.Application.Common.Models;
+﻿using Microsoft.EntityFrameworkCore;
+
+namespace MusicManagement.Application.Common.Models;
 
 public class PaginatedList<T>
 {

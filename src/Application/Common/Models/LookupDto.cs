@@ -1,4 +1,5 @@
-﻿using MusicManagement.Domain.Entities;
+﻿using AutoMapper;
+using MusicManagement.Domain.Entities;
 
 namespace MusicManagement.Application.Common.Models;
 

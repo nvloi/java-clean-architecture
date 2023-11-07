@@ -1,4 +1,5 @@
 ﻿using System.Reflection;
+using MediatR;
 using MusicManagement.Application.Common.Exceptions;
 using MusicManagement.Application.Common.Interfaces;
 using MusicManagement.Application.Common.Security;

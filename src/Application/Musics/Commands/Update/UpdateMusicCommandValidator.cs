@@ -1,4 +1,6 @@
-﻿namespace MusicManagement.Application.Musics.Commands.Update;
+﻿using FluentValidation;
+
+namespace MusicManagement.Application.Musics.Commands.Update;
 
 public class UpdateMusicCommandValidator : AbstractValidator<UpdateMusicCommand>
 {

@@ -1,4 +1,5 @@
-﻿using MusicManagement.Domain.Entities;
+﻿using Microsoft.EntityFrameworkCore;
+using MusicManagement.Domain.Entities;
 
 namespace MusicManagement.Application.Common.Interfaces;
 

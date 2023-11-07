@@ -1,6 +1,7 @@
 ﻿using System.Diagnostics;
 using MusicManagement.Application.Common.Interfaces;
 using Microsoft.Extensions.Logging;
+using MediatR;
 
 namespace MusicManagement.Application.Common.Behaviours;
 

@@ -1,4 +1,5 @@
-﻿using MusicManagement.Application.Common.Interfaces;
+﻿using MediatR;
+using MusicManagement.Application.Common.Interfaces;
 using MusicManagement.Domain.Entities;
 using MusicManagement.Domain.Events;
 

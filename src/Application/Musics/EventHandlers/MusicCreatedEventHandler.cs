@@ -1,5 +1,6 @@
 ﻿using MusicManagement.Domain.Events;
 using Microsoft.Extensions.Logging;
+using MediatR;
 
 namespace MusicManagement.Application.Musics.EventHandlers;
 

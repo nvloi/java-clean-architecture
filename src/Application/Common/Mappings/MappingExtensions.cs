@@ -1,4 +1,7 @@
-﻿using MusicManagement.Application.Common.Models;
+﻿using AutoMapper;
+using AutoMapper.QueryableExtensions;
+using Microsoft.EntityFrameworkCore;
+using MusicManagement.Application.Common.Models;
 
 namespace MusicManagement.Application.Common.Mappings;
 

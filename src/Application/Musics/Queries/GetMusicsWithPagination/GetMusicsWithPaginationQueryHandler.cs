@@ -1,4 +1,7 @@
-﻿using MusicManagement.Application.Common.Interfaces;
+﻿using AutoMapper;
+using AutoMapper.QueryableExtensions;
+using MediatR;
+using MusicManagement.Application.Common.Interfaces;
 using MusicManagement.Application.Common.Mappings;
 using MusicManagement.Application.Common.Models;
 

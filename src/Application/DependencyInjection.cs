@@ -1,4 +1,7 @@
-﻿using MusicManagement.Application.Common.Behaviours;
+﻿using FluentValidation;
+using MediatR;
+using MusicManagement.Application.Common.Behaviours;
+using MusicManagement.Application.Common.Exceptions;
 using System.Reflection;
 
 namespace Microsoft.Extensions.DependencyInjection;
@@ -16,6 +19,7 @@ public static class DependencyInjection
             cfg.AddBehavior(typeof(IPipelineBehavior<,>), typeof(ValidationBehaviour<,>));
             // cfg.AddBehavior(typeof(IPipelineBehavior<,>), typeof(PerformanceBehaviour<,>));
         });
+        services.AddExceptionHandler<CustomExceptionHandler>();
 
         return services;
     }

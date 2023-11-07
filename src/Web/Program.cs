@@ -31,7 +31,6 @@ app.MapRazorPages();
 app.MapFallbackToFile("index.html");
 app.UseExceptionHandler(options => { });
 app.Map("/", () => Results.Redirect("/swagger/index.html"));
-app.MapEndpoints();
 app.Run();
 
 public partial class Program { }
