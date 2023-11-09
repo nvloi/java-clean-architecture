@@ -1,10 +1,10 @@
-﻿using MusicManagement.Application.Common.Interfaces;
-using MusicManagement.Domain.Common;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using Microsoft.EntityFrameworkCore.Diagnostics;
+using MusicManagement.Application.Common.Interfaces;
+using MusicManagement.Domain.Common;
 
-namespace Api.Infrastructure.Data.Interceptors;
+namespace MusicManagement.Persistance.Data.Interceptors;
 
 public class AuditableEntityInterceptor : SaveChangesInterceptor
 {

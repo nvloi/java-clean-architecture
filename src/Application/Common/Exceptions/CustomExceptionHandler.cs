@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Ardalis.GuardClauses;
 using MusicManagement.Application.Common.Exceptions;
+using Microsoft.AspNetCore.Http;
 
 namespace MusicManagement.Web.Extensions.Exceptions;
 

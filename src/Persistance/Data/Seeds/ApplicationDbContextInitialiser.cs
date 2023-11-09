@@ -1,24 +1,8 @@
-﻿using Microsoft.AspNetCore.Builder;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using MusicManagement.Domain.Entities;
 
-namespace MusicManagement.Infrastructure.Data;
-
-public static class InitialiserExtensions
-{
-    public static async Task InitialiseDatabaseAsync(this WebApplication app)
-    {
-        using var scope = app.Services.CreateScope();
-
-        var initialiser = scope.ServiceProvider.GetRequiredService<ApplicationDbContextInitialiser>();
-
-        await initialiser.InitialiseAsync();
-
-        await initialiser.SeedAsync();
-    }
-}
+namespace MusicManagement.Persistance.Data.Seeds;
 
 public class ApplicationDbContextInitialiser
 {
@@ -57,7 +41,7 @@ public class ApplicationDbContextInitialiser
         }
     }
 
-    public async Task TrySeedAsync()
+    private async Task TrySeedAsync()
     {
 
         // Default data
@@ -66,13 +50,13 @@ public class ApplicationDbContextInitialiser
         {
             _context.Albums.Add(new Album
             {
-                Title = "Album List",
+                Title = "Todo List",
                 Musics =
                 {
-                    new Music { Title = "Make a todo list 📃" },
-                    new Music { Title = "Check off the first item ✅" },
-                    new Music { Title = "Realise you've already done two things on the list! 🤯"},
-                    new Music { Title = "Reward yourself with a nice, long nap 🏆" },
+                    new Music { Title = "Make a todo list" },
+                    new Music { Title = "Check off the first item" },
+                    new Music { Title = "Realise you've already done two things on the list!"},
+                    new Music { Title = "Reward yourself with a nice, long nap" },
                 }
             });
 

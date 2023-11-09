@@ -1,5 +1,4 @@
-using MusicManagement.Infrastructure.Data;
-using MusicManagement.Web.Extensions.Endpoints;
+using MusicManagement.Web.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
@@ -24,21 +23,23 @@ if (app.Environment.IsDevelopment())
 }
 else
 {
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
 app.UseHttpsRedirection();
 app.UseStaticFiles();
+app.UseOpenApi();
+app.UseSwaggerUi3(settings =>
+{
+    settings.Path = "/api";
+});
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller}/{action=Index}/{id?}");
 app.MapRazorPages();
 app.MapFallbackToFile("index.html");
 app.UseExceptionHandler(options => { });
-app.Map("/", () => Results.Redirect("/swagger/index.html"));
+app.Map("/", () => Results.Redirect("/api"));
 app.MapEndpoints();
-app.UseOpenApi();
-app.UseSwaggerUi3();
 app.Run();
 
 public partial class Program { }

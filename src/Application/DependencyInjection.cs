@@ -1,7 +1,8 @@
 ﻿using FluentValidation;
 using MediatR;
 using MusicManagement.Application.Common.Behaviours;
-using MusicManagement.Application.Common.Exceptions;
+using MusicManagement.Application.Common.Security;
+using MusicManagement.Web.Extensions.Exceptions;
 using System.Reflection;
 
 namespace Microsoft.Extensions.DependencyInjection;

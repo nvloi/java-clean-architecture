@@ -1,4 +1,6 @@
-﻿namespace MusicManagement.Web.Extensions.Endpoints;
+﻿using Microsoft.AspNetCore.Builder;
+
+namespace MusicManagement.Infrastructure.Endpoints;
 
 public abstract class EndpointGroupBase
 {

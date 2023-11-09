@@ -2,8 +2,7 @@
 using MusicManagement.Application.Common.Interfaces;
 using System.Security.Claims;
 
-namespace MusicManagement.Infrastructure.Services;
-
+namespace MusicManagement.Infrastructure.Identity;
 public class CurrentUser : IUser
 {
     private readonly IHttpContextAccessor _httpContextAccessor;

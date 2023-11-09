@@ -5,14 +5,14 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using MusicManagement.Infrastructure.Data;
+using MusicManagement.Persistance.Data;
 
 #nullable disable
 
-namespace MusicManagement.Infrastructure.Migrations
+namespace MusicManagement.Persistance.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20231031072720_Init")]
+    [Migration("20231109070834_Init")]
     partial class Init
     {
         /// <inheritdoc />

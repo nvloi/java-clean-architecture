@@ -1,7 +1,8 @@
 ﻿using System.Reflection;
-using MusicManagement.Web.Extensions.Endpoints;
+using MusicManagement.Infrastructure.Endpoints;
+using MusicManagement.Web.Extensions;
 
-namespace MusicManagement.Web.Extensions.Endpoints;
+namespace MusicManagement.Web.Extensions;
 
 public static class WebApplicationExtensions
 {

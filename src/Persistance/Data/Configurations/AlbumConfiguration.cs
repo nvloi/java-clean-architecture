@@ -1,8 +1,8 @@
-﻿using MusicManagement.Domain.Entities;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using MusicManagement.Domain.Entities;
 
-namespace MusicManagement.Infrastructure.Data.Configurations;
+namespace MusicManagement.Persistance.Data.Configurations;
 
 public class AlbumConfiguration : IEntityTypeConfiguration<Album>
 {

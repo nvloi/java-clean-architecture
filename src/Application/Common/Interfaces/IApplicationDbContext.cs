@@ -2,7 +2,6 @@
 using MusicManagement.Domain.Entities;
 
 namespace MusicManagement.Application.Common.Interfaces;
-
 public interface IApplicationDbContext
 {
     DbSet<Music> Musics { get; }

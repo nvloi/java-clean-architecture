@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace MusicManagement.Infrastructure.Migrations
+namespace MusicManagement.Persistance.Migrations
 {
     /// <inheritdoc />
     public partial class Init : Migration

@@ -1,11 +1,11 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using System.Reflection;
 using MusicManagement.Application.Common.Interfaces;
 using MusicManagement.Domain.Entities;
 using MusicManagement.Infrastructure.Identity;
-using System.Reflection;
 
-namespace MusicManagement.Infrastructure.Data;
+namespace MusicManagement.Persistance.Data;
 
 public class ApplicationDbContext : IdentityDbContext<ApplicationUser>, IApplicationDbContext
 {

@@ -6,14 +6,11 @@
 	</PropertyGroup>
 	
 	<ItemGroup>
-	  <PackageReference Include="Ardalis.GuardClauses" />
-	  <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" />
-	  <PackageReference Include="FluentValidation.DependencyInjectionExtensions" />
-	  <PackageReference Include="Microsoft.EntityFrameworkCore" />
-	  <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" />
-	  <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" />
-	  <PackageReference Include="Microsoft.AspNetCore.OpenApi" />
-      <PackageReference Include="FluentValidation.AspNetCore" />
+		<PackageReference Include="Ardalis.GuardClauses" />
+		<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" />
+		<PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" />
+		<PackageReference Include="Microsoft.AspNetCore.OpenApi" />
+		<PackageReference Include="FluentValidation.DependencyInjectionExtensions" />
 	</ItemGroup>
 	
 	<ItemGroup>

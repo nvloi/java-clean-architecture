@@ -8,3 +8,5 @@ src/Application/bin/
 src/Domain/bin/
 src/Infrastructure/bin/
 src/Web/bin/
+src/Persistance/obj/
+src/Persistance/bin/

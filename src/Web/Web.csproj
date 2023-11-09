@@ -9,11 +9,7 @@
 	</PropertyGroup>
 
   <ItemGroup>
-	  <PackageReference Include="Ardalis.GuardClauses" />
 	  <PackageReference Include="Azure.Extensions.AspNetCore.Configuration.Secrets" />
-	  <PackageReference Include="Azure.Identity" />
-	  <PackageReference Include="Microsoft.EntityFrameworkCore.Design" />
-	  <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" />
 	  <PackageReference Include="NSwag.AspNetCore" />
 	  <PackageReference Include="NSwag.MSBuild">
 		  <PrivateAssets>all</PrivateAssets>
@@ -24,6 +20,7 @@
 	<ItemGroup>
 		<ProjectReference Include="..\Application\Application.csproj" />
 		<ProjectReference Include="..\Infrastructure\Infrastructure.csproj" />
+		<ProjectReference Include="..\Persistance\Persistance.csproj" />
 	</ItemGroup>
 
 	<ItemGroup>
